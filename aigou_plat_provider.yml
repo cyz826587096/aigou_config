@@ -1,4 +1,3 @@
-
 spring:
   profiles:
     active: 
@@ -10,7 +9,7 @@ spring:
     name: AIGOU_PLAT
 eureka:
   client:
-    service-url: 
+    serviceUrl: 
       defaultZone: http://127.0.0.1:7001/eureka
   instance:
     prefer-ip-address: true
@@ -21,7 +20,7 @@ server:
 spring:
   profiles: test
   application:
-    name: AIGOU_PLAT
+    name: AIGOU_PLAT_TEST
 eureka:
   client:
     service-url: 
